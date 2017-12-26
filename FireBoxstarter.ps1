@@ -5,7 +5,7 @@
 #
 
 # Set the URL to the GIST to install
-$gist = "https://gist.githubusercontent.com/jtperry/4b54e64c34e40767580340381a274cf6/raw/04c44465ef6b08a7f71ab2adf2da581d77edc68a/gistfile1.txt"
+$boxgist = "https://gist.githubusercontent.com/jtperry/4b54e64c34e40767580340381a274cf6/raw/04c44465ef6b08a7f71ab2adf2da581d77edc68a/gistfile1.txt"
 
 
 
@@ -213,5 +213,5 @@ Set-ExecutionPolicy RemoteSigned
 get-boxstarter -Force
 
 #Now install the GIST we have above
-Install-BoxstarterPackage -PackageName $gist
+Install-BoxstarterPackage -PackageName $boxist
 
