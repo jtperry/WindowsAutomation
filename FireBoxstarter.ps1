@@ -213,5 +213,5 @@ Set-ExecutionPolicy RemoteSigned
 get-boxstarter -Force
 
 #Now install the GIST we have above
-Install-BoxstarterPackage -PackageName $boxist
+Install-BoxstarterPackage -PackageName $boxgist
 
